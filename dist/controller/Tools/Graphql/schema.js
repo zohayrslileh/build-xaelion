@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.importSchema=void 0;const graphql_1=require("graphql"),fs_1=require("fs"),path_1=require("path");function importSchema(...e){e=(0,fs_1.readFileSync)((0,path_1.join)(...e),{encoding:"utf-8"});return(0,graphql_1.buildSchema)(e)}exports.importSchema=importSchema;

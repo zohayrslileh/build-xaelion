@@ -1,0 +1,1 @@
+"use strict";var __importDefault=this&&this.__importDefault||function(t){return t&&t.__esModule?t:{default:t}};Object.defineProperty(exports,"__esModule",{value:!0});const Router_1=__importDefault(require("#/Tools/Socket/Router")),community_1=__importDefault(require("./community"));exports.default=(0,Router_1.default)(({route:t})=>{t("community",community_1.default)});

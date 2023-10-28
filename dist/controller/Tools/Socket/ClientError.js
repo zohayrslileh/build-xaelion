@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});class ClientError extends Error{constructor(r){super(r)}}exports.default=ClientError;

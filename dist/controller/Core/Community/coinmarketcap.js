@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.scrape=void 0;const community_1=require("#/Models/Apis/coinmarketcap/community");async function scrape(e,t=1){e=(await(0,community_1.scrape)(e,t)).data;return!!e&&e.filter(e=>e.textContent).map(e=>({content:e.textContent,fullDate:new Date(Number(e.postTime)).toDateString()}))}exports.scrape=scrape;

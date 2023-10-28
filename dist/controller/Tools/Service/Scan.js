@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});const promises_1=require("fs/promises"),path_1=require("path");async function scan(...e){return(0,promises_1.readdir)((0,path_1.join)(...e))}exports.default=scan;

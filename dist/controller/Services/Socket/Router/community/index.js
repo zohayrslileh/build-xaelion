@@ -1,0 +1,1 @@
+"use strict";var __importDefault=this&&this.__importDefault||function(e){return e&&e.__esModule?e:{default:e}};Object.defineProperty(exports,"__esModule",{value:!0});const Router_1=__importDefault(require("#/Tools/Socket/Router")),fetch_1=__importDefault(require("./fetch"));exports.default=(0,Router_1.default)(({onconnection:e})=>{e(e=>{e.on("fetch",fetch_1.default)})});

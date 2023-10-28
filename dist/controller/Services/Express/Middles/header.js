@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});const header=(e,s,o)=>{s.set({"X-Powered-By":"Xaelion"}),s.set({"Access-Control-Allow-Origin":"*"}),s.set({"Access-Control-Allow-Headers":"*"}),o()};exports.default=header;

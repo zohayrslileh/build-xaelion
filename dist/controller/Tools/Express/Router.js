@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});const express_1=require("express");function router(e,r){r=(0,express_1.Router)(r);return e(r),r}exports.default=router;

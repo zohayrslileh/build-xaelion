@@ -1,0 +1,1 @@
+"use strict";function argument(t){var e=t.slice(2).filter(t=>!t.startsWith("--")),r={};for(const i of t.slice(2).filter(t=>t.startsWith("--"))){var[s,a]=i.slice(2).split("=");r[s]=a??!0}return{params:e,flags:r}}Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=argument;

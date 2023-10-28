@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});class Service{name;executor;constructor(e,t){this.name=e,this.executor=t}}exports.default=Service;

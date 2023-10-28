@@ -1,0 +1,21 @@
+
+/*
+ |---------------------------------------------------------
+ |  Define Development Environment
+ |---------------------------------------------------------
+ |  For development environment use "npx ts-node console"
+ |  For production environment use "node console"
+ |
+ */
+const DEV = process.execArgv.some(arg => arg.includes('ts-node'));
+
+/*
+ |-----------------------------
+ |  Require Application
+ |-----------------------------
+ |
+ |
+ */
+const application = require(DEV ? './source/controller/console' : './dist/controller/console');
+
+application() // Done

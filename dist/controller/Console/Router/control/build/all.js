@@ -1,0 +1,1 @@
+"use strict";var __importDefault=this&&this.__importDefault||function(e){return e&&e.__esModule?e:{default:e}};Object.defineProperty(exports,"__esModule",{value:!0});const controller_1=__importDefault(require("./controller")),web_1=__importDefault(require("./web"));async function default_1(){await(0,controller_1.default)(),await(0,web_1.default)()}exports.default=default_1;
